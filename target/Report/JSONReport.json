@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7036100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "get rcb player list",
+            "match": {
+              "location": "RCBSteps.get_rcb_player_list()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:02.982Z",
+        "line": 6,
+        "name": "To verify that team has 4 forign players",
+        "description": "",
+        "id": "to--verify-rcb-team;to-verify-that-team-has-4-forign-players",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1982948200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "to verify the forign players count",
+            "match": {
+              "location": "RCBSteps.to_verify_the_forign_players_count()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3650600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To verify team has maximum four foriegn players",
+            "match": {
+              "location": "RCBSteps.to_verify_team_has_maximum_four_foriegn_players()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 858200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "get rcb player list",
+            "match": {
+              "location": "RCBSteps.get_rcb_player_list()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-09T08:43:05.012Z",
+        "line": 10,
+        "name": "To verify at least one wicket keeper",
+        "description": "",
+        "id": "to--verify-rcb-team;to-verify-at-least-one-wicket-keeper",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 204182800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to verify team has one wicket keeper",
+            "match": {
+              "location": "RCBSteps.to_verify_team_has_one_wicket_keeper(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Bowler"
+                ]
+              },
+              {
+                "cells": [
+                  "Batsman"
+                ]
+              },
+              {
+                "cells": [
+                  "All-Rounder"
+                ]
+              },
+              {
+                "cells": [
+                  "Wicket-keeper"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To  verify RCB Team",
+    "description": "",
+    "id": "to--verify-rcb-team",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/rcb.feature",
+    "tags": []
+  }
+]

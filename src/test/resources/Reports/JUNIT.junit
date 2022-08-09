@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="2.414074">
+<testcase classname="To  verify RCB Team" name="To verify that team has 4 forign players" time="2.163204">
+<system-out><![CDATA[Given get rcb player list...................................................passed
+When to verify the forign players count.....................................passed
+Then To verify team has maximum four foriegn players........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To  verify RCB Team" name="To verify at least one wicket keeper" time="0.25087">
+<system-out><![CDATA[Given get rcb player list...................................................passed
+Then to verify team has one wicket keeper...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
